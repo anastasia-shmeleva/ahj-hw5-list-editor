@@ -1,0 +1,133 @@
+#container {
+    width: 400px;
+}
+
+.header {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: gray;
+}
+
+.btn__add {
+    width: 15px;
+    height: 15px;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    align-self: center;
+    background: #fff;
+    padding: 0;
+}
+
+.btn__add::after {
+    content: '\+';
+    position:static;
+    color:gray;
+}
+
+table {
+    width: 100%;
+    font-size: 15px; 
+    font-family: sans-serif;
+    outline: 1px solid gray;
+    padding: 15px;
+    display: none;
+}
+
+.table__header {
+    text-align: left;
+}
+
+th {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: grey;
+}
+
+.table__group {
+    font-size: 15px; 
+    font-family: sans-serif;
+    color: gray;
+}
+
+.btn__update,
+.btn__delete {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    align-self: center;
+    background: #fff;
+    padding: 0;
+}
+
+.btn__update::after {
+    content: '✎';
+    position:static;
+    color:gray;
+}
+
+.btn__delete::after {
+    content: '×';
+    position:static;
+    color:gray;
+}
+
+.popup {
+    position: absolute;
+    width: 300px;
+    border: solid 1px black;
+    padding: 20px;
+    color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    top: 25px;
+    left: 30px;
+    background: #fff;
+}
+
+.title__group,
+.price__group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+span {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid gray;
+}
+
+.popup__footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn__popup {
+    cursor: pointer;
+    color: gray;
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid gray;
+    align-self: center;
+    background: #fff;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.form-error {
+    color: rgb(194, 45, 45);
+}
