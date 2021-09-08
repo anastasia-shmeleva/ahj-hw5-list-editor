@@ -14,7 +14,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, '/dist'),
     open: true,
     compress: true,
-    port: 8080,
+    port: 9000,
   },
   module: {
     rules: [
