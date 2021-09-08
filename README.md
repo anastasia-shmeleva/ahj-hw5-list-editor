@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/56gqcreobdy9wepl?svg=true)](https://ci.appveyor.com/project/anastasia-shmeleva/ahj-hw5-list-editor)
